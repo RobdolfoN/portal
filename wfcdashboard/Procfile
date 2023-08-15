@@ -1,0 +1,3 @@
+web: gunicorn portalbelum.wsgi --log-file-
+
+web: npm run start

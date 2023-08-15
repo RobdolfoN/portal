@@ -1,0 +1,29 @@
+{% extends "portalbelum/base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- component -->
+<!-- component -->
+
+
+<!-- component -->
+
+<div class="min-h-screen bg-gradient-to-r from-blue-800 to-purple-800 py-6 flex flex-col justify-center sm:py-12">
+    <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+      <div class="max-w-md mx-auto">
+        <div>
+          <h1 class="text-2xl font-semibold text-white">Bienvenido a tu Portal Belum</h1>
+        </div>
+        <div class="flex justify-center mt-4">
+          <a type="submit" class="bg-blue-500 text-white rounded-md px-4 py-2" href="{% url 'portal_industrial' %}">Portal Industrial</a>
+          <div class="h-8 w-px bg-gray-400 mx-4" style="writing-mode: vertical-rl;"></div>
+          <a class="bg-blue-500 text-white rounded-md px-4 py-2" href="{% url 'portal' %}">Portal Logistico</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+{% endblock %}

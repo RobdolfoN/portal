@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "tailwindcss -i dddashboard/static/tw/tailwind-input.css -o dddashboard/static/css/belum.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "nvm": "0.0.4"
+  },
+
+  "engines": {
+    "node": ">=14.x",
+    "node": "16.x",
+    "npm": "7.x",
+    "yarn": ">=1.19.0 < 2.0.0"
+}
+
+}
